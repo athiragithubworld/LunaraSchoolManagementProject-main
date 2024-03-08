@@ -1,0 +1,104 @@
+body {
+  font-family: "roboto", sans-serif;
+}
+/* .side-wrapper {
+  margin-right: 25px;
+  display: flex;
+} */
+.sidebar-wrapper {
+  height: 40px;
+  width: 8rem;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2);
+  background-color: rgba(134, 210, 247, 0.1);
+  border-radius: 18px;
+  /* margin-left: 30px;
+  margin-top: 30px; */
+
+  /* to center content grid child */
+  justify-self: center; 
+}
+.sidebar {
+  padding: 20px;
+  height: 515px;
+  /* width: 250px; */
+  width: 195px;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2);
+  background-color: rgba(134, 210, 247, 0.1);
+  border-radius: 18px;
+  /* margin-left: 24px;
+  margin-top: 20px; */
+  margin-bottom: 24px;
+  justify-content: center;
+  align-items: center;
+  overflow:scroll ;
+   scrollbar-width: thin; 
+  scrollbar-color: transparent transparent;
+
+}
+.features {
+  /* width: 250px; */
+  width: 205px;
+  border: 3px solid #e0e0e0;
+  border-radius: 9px;
+  height: 34px;
+  margin-left: -5.5px;
+   background-color: white; 
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+.features:hover {
+  background-color: #0197f9;
+}
+.features-div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom {
+  width: 130px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  cursor: pointer;
+  justify-content: center;
+  text-align: left;
+  font-size: 16px;
+  appearance: none;
+}
+.features .icons {
+  font-size: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+.features .icon {
+  font-size: 30px;
+  background-color: white;
+  border-radius: 5px;
+  height: 25px;
+  margin-left:70px;
+}
+
+.features img {
+  height: 15px;
+  margin-right: 15px;
+  margin-left: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.dropdown-options{
+  background-color: #0197f9;
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  margin-top: 7px;
+}
+.dropdown-option{
+  margin-top: 5px;
+  text-align: left;
+}
