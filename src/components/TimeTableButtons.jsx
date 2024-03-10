@@ -1,5 +1,5 @@
-import React from 'react'
-import classes from '../style/TimeTableButton.module.css';
+import React from "react";
+import classes from "../style/TimeTableButton.module.css";
 import { HiPencil } from "react-icons/hi";
 import { FiShare2 } from "react-icons/fi";
 
@@ -10,17 +10,17 @@ export default function TimeTableButtons() {
       <span>
         <select className={classes.timetable_classbutton} id="class">
           <option value="">Class </option>
-          <option value="saab">Class 1</option>
-          <option value="opel">Class 1</option>
-          <option value="audi">Class 1</option>
+          <option value="class1">Class 1</option>
+          <option value="class2">Class 1</option>
+          <option value="class3">Class 1</option>
         </select>
 
         <span>
           <select className={classes.timetable_classbutton} id="section">
-            <option value="volvo">Section </option>
-            <option value="saab">Section 1</option>
-            <option value="opel">Section 2</option>
-            <option value="audi">Section 3</option>
+            <option value="section">Section </option>
+            <option value="section1">Section 1</option>
+            <option value="section2">Section 2</option>
+            <option value="section3">Section 3</option>
           </select>
         </span>
       </span>
@@ -29,24 +29,12 @@ export default function TimeTableButtons() {
         <button className={classes.faculty_classbutton}>
           <HiPencil />
         </button>
-        {/* <select className={classes.faculty_classbutton} id="class">
-          <option value="volvo">Class </option>
-          <option value="saab">Class 1</option>
-          <option value="opel">Class 1</option>
-          <option value="audi">Class 1</option>
-        </select> */}
 
         <span>
           <button className={classes.faculty_sharebutton}>
             {" "}
             Share <FiShare2 />{" "}
           </button>
-          {/* <select className={classes.faculty_classbutton} id="section">
-            <option value="volvo">Section </option>
-            <option value="saab">Section 1</option>
-            <option value="opel">Section 2</option>
-            <option value="audi">Section 3</option>
-          </select> */}
         </span>
       </span>
     </div>

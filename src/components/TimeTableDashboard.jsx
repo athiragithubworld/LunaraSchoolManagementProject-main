@@ -1,8 +1,9 @@
 import React from "react";
-import TimeTableGrid from "./TimeTableGrid";
-import Faculty from "./Faculty";
 import classes from "../style/TimeTableDashboard.module.css";
 import TimeTableButtons from "./TimeTableButtons";
+import Faculty from "./Faculty";
+import TimeTableGrid from "./TimeTableGrid";
+
 
 export default function TimeTableDashboard() {
   return (
